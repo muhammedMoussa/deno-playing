@@ -1,0 +1,31 @@
+{
+    "files": [
+        "app.ts"
+    ],
+    "quiet": false,
+    "debug": true,
+    "fullscreen": true,
+    "extensions": [
+        ".ts",
+        ".json"
+    ],
+    "interval": 500,
+    "watch": [
+        "/"
+    ],
+    "execute": {
+        ".ts": ["deno", "run"]
+    },
+    "scripts": {
+        "start": { 
+            "cmd": "app.ts",
+            "des": "start dev server...",
+            "allow": [
+                "all"
+            ]
+        }
+            
+    },
+    "fmt": true,
+    "test": true
+}
